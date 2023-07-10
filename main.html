@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KUTC 교환 신청</title>
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="./main.js"></script>
+</head>
+<body>
+    <div id="main">
+        <div class="container">
+            <div class="row">
+                <div class="main">
+                    <div class="title">KUTC 교환 신청</div>
+                    <div class="ether_klay">
+                        현재 개발 진행중인 플랫폼 및 블록체인 기술을 활용하는 과정에서 다음과 같은 이유로 클레이튼 네트워크로 시스템을 전환하기로 했습니다. trasaction을 할 때마다 gas price가 발생됩니다.<br>
+                        이 때 이더리움은 이용자가 price를 직접 기입하며,클레이튼은 고정된 price로 이용하고 있습니다. 고정된 가격으로 인해 수수료의 변동을 제거하여 불필요한 금액을 줄였습니다.<br>
+                        이더리움은 자신들의 이익을 위해 수수료가 높은 transaction을 선택하도록 하였습니다. 이것은 블록생성 주기와 낮은 성능으로 가능했던 일입니다.<br>
+                        하지만 클레이튼은 4000+ TPS로 빠른 속도의 성능을 가지고 있습니다. 이는 매 1초마다 블록을 생성할 수 있는 처리 속도 입니다.<br>
+                        GC 구성원들은 수수료 이외의 블록 생성에 대한 보상을 받습니다.클레이튼은 PBFT 알고리즘 기반의 합의알고리즘으로 동작이 됩니다.<br>
+                        PBFT는 비동기 네트워크로 총 노드 갯수가 3f+1개 이상이면 네트워크에서 이루어지는 합의는 신뢰할 수 있다는 것을 수학적으로 증명한 알고리즘입니다.<br>
+                        이 시스템의 특징은 모든 노드가 동기화 되어야 한다는 점입니다. 하지만 모든 노드의 동기화는 힘드니 BFT 알고리즘은 최소한 2/3 노드 이상의 합의로 동작됩니다.<br>
+                        이 노드들은 random하게 선출하기 위해 VRF(Verifiable Random Function)로 선출하고 있습니다. 선출된 노드들은 초당 4,000TPS 정도로 성능이 설정 되어 있습니다.<br>
+                        이 성능으로 인해 클레이튼 50개 정도의 GC노드로도 초당 4,000 TPS의 성능을 제공 할 수 있습니다.
+                    </div>
+                    <div class="table">
+                        <div class="utc">
+                            <div class="name">UUTT Chain</div>
+                            <div class="symbol">UTC</div>
+                            <div class="network">Ethereum</div>
+                            <div class="max_supply">28억개</div>
+                            <div class="wallet">Metamask</div>
+                            <div class="logo"><img src="./imgs/mypn03.png" alt=""></div>
+                        </div>
+                        <div class="menu">
+                            <div class="name">
+                                토큰명(Name)
+                            </div>
+                            <div class="symbol">
+                                심볼(Symbol)
+                            </div>
+                            <div class="network">
+                                네트워크(Network)
+                            </div>
+                            <div class="max_supply">
+                                총 발행량(Max Supply)
+                            </div>
+                            <div class="wallet">
+                                대표지갑(Wallet)
+                            </div>
+                            <div class="logo">
+                                로고(Logo)
+                            </div>
+                        </div>
+                        <div class="kutc">
+                            <div class="name">Klay UUTT Chain</div>
+                            <div class="symbol">KUTC</div>
+                            <div class="network">Klaytn</div>
+                            <div class="max_supply">9억개</div>
+                            <div class="wallet">Kaikas</div>
+                            <div class="logo"><img src="./imgs/mypn03.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="distribution">
+                        <div class="distribution_rate">
+                            <div class="content">
+                                <div class="title">분배 비율</div>
+                                <div class="substance">1:1 (예시 : 1 UTC 보유 -> 1 KUTC 지급)</div>
+                            </div>
+                        </div>
+                        <div class="distribution_way">
+                            <div class="content">
+                                <div class="title">분배 방법</div>
+                                <div class="substance">
+                                    <span>1. 아래 교환 버튼을 클릭합니다.</span>
+                                    <span>2. 신청서에 작성된 UTC를 보낼 지갑 주소로 UTC를 보냅니다.</span>
+                                    <span>3. 신청서를 작성한 후 제출하면 됩니다.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="agree">
+                        <div class="box">
+                            <input type="checkbox">
+                            <span>상기 숙지 후 교환신청 바랍니다. 교환하시겠습니까?</span>
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <a href="http://docs.google.com/forms/d/1usZ0dQ5LUUoyxZ1NVGDKM4aZOWfGyqLJR_uCm8N0Y7w/edit" target='_blank'>교환</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

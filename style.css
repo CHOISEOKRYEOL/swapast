@@ -1,0 +1,134 @@
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13px;
+}
+
+button {
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#main {
+    text-align: center;
+}
+
+#main .container {
+    margin: 0 20%;
+}
+
+#main .main > .title {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+#main .main .ether_klay {
+    line-height: 1.4;
+}
+
+#main .main > div {
+    margin: 2% 0;
+}
+
+#main .main .table {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 4% 0;
+    height: 220px;
+}
+
+#main .main .table .utc,
+#main .main .table .menu,
+#main .main .table .kutc {
+    margin: 0 1%;
+}
+
+#main .main .table .utc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 2px solid #FFD500;
+    border-radius: 15px;
+    box-sizing: border-box;
+    width: 180px;
+}
+
+#main .main .table .menu .logo {
+    height: 22px;
+    line-height: 1.4;
+}
+
+#main .main .table .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#main .main .table .kutc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 2px solid #FFD500;
+    border-radius: 15px;
+    box-sizing: border-box;
+    width: 180px;
+}
+
+
+#main .main .distribution {
+    text-align: start;
+    padding-left: 24%;
+}
+
+#main .main .distribution .distribution_rate .content {
+    margin-bottom: 2%;
+}
+
+#main .main .distribution .distribution_rate .content .title {
+    margin-bottom: 1%;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#main .main .distribution .distribution_way .substance {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+}
+
+#main .main .distribution .distribution_way .content .title {
+    margin-bottom: 1%;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#main .main .agree {
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+#main .main .agree .box {
+    display: flex;
+    justify-content: center;    
+}
+
+#main .main .agree .box span {
+    line-height: 1.3;
+}
+
+#main .main .btn a {
+    border: 2px solid black;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+
