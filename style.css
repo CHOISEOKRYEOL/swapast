@@ -30,6 +30,9 @@ a {
 
 #main .main .ether_klay {
     line-height: 1.4;
+    width: 534px;
+    margin: 0 auto;
+    text-align: justify;
 }
 
 #main .main > div {
@@ -39,15 +42,14 @@ a {
 #main .main .table {
     display: flex;
     justify-content: center;
-    text-align: center;
-    margin: 4% 0;
+    margin: 3% auto;
     height: 220px;
 }
 
 #main .main .table .utc,
 #main .main .table .menu,
 #main .main .table .kutc {
-    margin: 0 1%;
+    margin: 0 2%;
 }
 
 #main .main .table .utc {
@@ -60,8 +62,15 @@ a {
     width: 180px;
 }
 
+#main .main .table .menu {
+    text-align: left;
+}
+
+#main .main .table .menu p {
+    font-size: 10px;
+}
+
 #main .main .table .menu .logo {
-    height: 22px;
     line-height: 1.4;
 }
 
@@ -83,10 +92,14 @@ a {
     width: 180px;
 }
 
+.fa-arrow-right {
+    font-size: 30px;
+    padding-top: 8%;
+}
 
 #main .main .distribution {
     text-align: start;
-    padding-left: 24%;
+    margin-left: 284px;
 }
 
 #main .main .distribution .distribution_rate .content {
@@ -112,7 +125,7 @@ a {
 }
 
 #main .main .agree {
-    margin-top: 3%;
+    margin-top: 2%;
     margin-bottom: 1%;
 }
 
@@ -125,10 +138,108 @@ a {
     line-height: 1.3;
 }
 
-#main .main .btn a {
+.btn .true {
     border: 2px solid black;
-    padding: 5px 20px;
+    padding: 5px 15px;
     border-radius: 5px;
+    font-weight: 600;
 }
 
+.btn .false {
+    border: 0;
+}
+
+#main .main .agree {
+    display: flex;
+    justify-content: center;
+}
+
+input[type=checkbox] {
+    width: 15px;
+    height: 15px;
+}
+
+.agree span {
+    display: block;
+    line-height: 1.5;
+}
+
+
+.false {
+    pointer-events: none;
+}
+
+.true {
+    pointer-events: all;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 10px;
+    }
+
+    #main .container {
+        margin: 0;
+    }
+
+    #main .main > .title {
+        font-size: 20px;
+    }
+
+    #main .main .table .menu {
+        font-size: 12px;
+    }
+
+    #main .main .agree .box span {
+        line-height: 1.8;
+    }
+
+    #main .main .distribution .distribution_rate .content .title {
+        font-size: 12px;
+    }
+
+    #main .main .distribution .distribution_way .content .title {
+        font-size: 12px;
+    }
+
+    input[type=checkbox] {
+        width: 12px;
+        height: 12px;
+    }
+
+    .agree span {
+        line-height: 1.5;
+        font-size: 12px;
+    }
+
+    #main .main .agree {
+        margin-bottom: 2%;
+    }
+}
+
+@media (max-width: 360px) {
+    #main .main .table .menu {
+        font-size: 11px;
+    }
+
+    #main .main > div {
+        margin: 4% 0;
+    }
+
+    #main .main .table {
+        margin: 6% 0;
+    }
+
+    #main .main .distribution .distribution_rate .content .title {
+        font-size: 11px;
+    }
+
+    #main .main .distribution .distribution_way .content .title {
+        font-size: 11px;
+    }
+
+    #main .main .distribution .distribution_rate .content {
+        margin-bottom: 4%;
+    }
+}
 
