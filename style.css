@@ -24,7 +24,7 @@ a {
 }
 
 #main .main > .title {
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 700;
 }
 
@@ -42,14 +42,31 @@ a {
 #main .main .table {
     display: flex;
     justify-content: center;
-    margin: 3% auto;
+    position: relative;
+    margin: 5% auto;
     height: 220px;
+}
+
+#main .main .table .before {
+    position: absolute;
+    top: -20px;
+    left: 442px;
+    font-weight: 800;
+    font-size: 13px;
+}
+
+#main .main .table .after {
+    position: absolute;
+    top: -20px;
+    right: 337px;
+    font-weight: 800;
+    font-size: 13px;
 }
 
 #main .main .table .utc,
 #main .main .table .menu,
 #main .main .table .kutc {
-    margin: 0 2%;
+    margin: 5px 2%;
 }
 
 #main .main .table .utc {
@@ -94,13 +111,13 @@ a {
 }
 
 .fa-arrow-right {
-    font-size: 30px;
+    font-size: 35px;
     padding-top: 8%;
 }
 
 #main .main .distribution {
     text-align: start;
-    margin-left: 284px;
+    margin-left: 281px;
 }
 
 #main .main .distribution .distribution_rate .content {
@@ -126,7 +143,7 @@ a {
 }
 
 #main .main .agree {
-    margin-top: 2%;
+    margin-top: 3%;
     margin-bottom: 1%;
 }
 
@@ -188,11 +205,26 @@ input[type=checkbox] {
     }
 
     #main .main .table .menu {
+        font-size: 11px;
+    }
+
+    #main .main .table .before {
+        left: 298px;
+        font-size: 12px;
+    }
+
+    #main .main .table .after {
+        right: 221px;
         font-size: 12px;
     }
 
     #main .main .agree .box span {
         line-height: 1.8;
+    }
+
+    #main .main .distribution {
+        text-align: start;
+        margin-left: 178px;
     }
 
     #main .main .distribution .distribution_rate .content .title {
@@ -214,12 +246,58 @@ input[type=checkbox] {
     }
 
     #main .main .agree {
+        margin-top: 4%;
         margin-bottom: 2%;
     }
+
+    #main .main .ether_klay {
+        width: 411px;
+    }
+
+    #main .main .table .utc {
+        width: 150px;
+    }
+
+    #main .main .table .kutc {
+        width: 150px;
+    }
+
+    .fa-arrow-right {
+        padding-top: 12%;
+        font-size: 25px;
+    }
+
+    #main .main .table .utc, #main .main .table .menu, #main .main .table .kutc {
+        margin: 3px 1%;
+    }
+
 }
 
+
 @media (max-width: 360px) {
+
+    #main .main > .title {
+        font-size: 16px;
+    }
+
+    #main .main .ether_klay {
+        width: 360px;
+        margin: 3% 0;
+    }
+
     #main .main .table .menu {
+        font-size: 11px;
+    }
+
+    #main .main .table .before {
+        top: -16px;
+        left: 103px;
+        font-size: 11px;
+    }
+
+    #main .main .table .after {
+        top: -16px;
+        right: 42px;
         font-size: 11px;
     }
 
@@ -228,7 +306,8 @@ input[type=checkbox] {
     }
 
     #main .main .table {
-        margin: 6% 0;
+        margin-top: 13%;
+        margin-bottom: 8%;
     }
 
     #main .main .distribution .distribution_rate .content .title {
@@ -240,6 +319,20 @@ input[type=checkbox] {
     }
 
     #main .main .distribution .distribution_rate .content {
+        margin-bottom: 4%;
+    }
+
+    .fa-arrow-right {
+        padding-top: 27%;
+        font-size: 20px;
+    }
+
+    #main .main .distribution {
+        margin-left: 3px;
+    }
+
+    #main .main .agree {
+        margin-top: 6%;
         margin-bottom: 4%;
     }
 }
