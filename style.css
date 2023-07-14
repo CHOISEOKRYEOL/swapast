@@ -43,7 +43,7 @@ a {
     display: flex;
     justify-content: center;
     position: relative;
-    margin: 5% auto;
+    margin: 3% auto 7% auto;
     height: 220px;
 }
 
@@ -52,36 +52,24 @@ table {
     border: 1px solid #444444;
     border-collapse: collapse;
 }
+
+tr {
+    height: 38px;
+}
+
 th, td {
     box-sizing: border-box;
     border: 1px solid #444444;
     padding: 1%;
     width: 176px;
-}
-
-#main .main .table .utc {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    border: 2px solid #FFD500;
-    border-radius: 15px;
-    box-sizing: border-box;
-    width: 180px;
-}
-
-#main .main .table .kutc {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    border: 2px solid #FFD500;
-    border-radius: 15px;
-    box-sizing: border-box;
-    width: 180px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
 }
 
 #main .main .distribution {
     text-align: start;
-    margin-left: 281px;
+    margin-left: 284px;
 }
 
 #main .main .distribution .distribution_rate .content {
@@ -155,6 +143,12 @@ input[type=checkbox] {
     pointer-events: all;
 }
 
+.diagonal {
+    background-image: linear-gradient(to left bottom, transparent calc(50% - 1px), black, transparent calc(50% + 1px));
+    background-size: 127% 124%;
+    background-position: center;
+}
+
 @media (max-width: 768px) {
     body {
         font-size: 10px;
@@ -166,16 +160,6 @@ input[type=checkbox] {
 
     #main .main > .title {
         font-size: 20px;
-    }
-
-    #main .main .table .before {
-        left: 291px;
-        font-size: 12px;
-    }
-
-    #main .main .table .after {
-        right: 229px;
-        font-size: 12px;
     }
 
     #main .main .agree .box span {
@@ -214,12 +198,12 @@ input[type=checkbox] {
         width: 411px;
     }
 
-    #main .main .table .utc {
-        width: 150px;
+    #main .main .table {
+        margin: 3% auto 10% auto;
     }
 
-    #main .main .table .kutc {
-        width: 150px;
+    table {
+        width: 411px;
     }
 
 }
@@ -240,8 +224,9 @@ input[type=checkbox] {
     }
 
     #main .main .table {
-        margin-top: 15%;
-        margin-bottom: 11%;
+        margin-top: 7%;
+        margin-bottom: 21%;
+    }
     }
 
     #main .main .distribution .distribution_rate .content .title {
