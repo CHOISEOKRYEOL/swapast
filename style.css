@@ -33,6 +33,7 @@ a {
     width: 534px;
     margin: 0 auto;
     text-align: justify;
+    font-size: 11px;
 }
 
 #main .main > div {
@@ -45,6 +46,7 @@ a {
     position: relative;
     margin: 3% auto 7% auto;
     height: 220px;
+    font-size: 11px;
 }
 
 table {
