@@ -43,7 +43,6 @@ a {
 #main .main .table {
     display: flex;
     justify-content: center;
-    position: relative;
     margin: 3% auto 7% auto;
     height: 220px;
     font-size: 13px;
@@ -71,7 +70,7 @@ th, td {
 
 #main .main .distribution {
     text-align: start;
-    margin-left: 238px;
+    margin-left: 131px;
 }
 
 #main .main .distribution .distribution_rate .content {
@@ -152,12 +151,8 @@ input[type=checkbox] {
 }
 
 @media (max-width: 768px) {
-    body {
+    #main .main .ether_klay {
         font-size: 10px;
-    }
-
-    #main .container {
-        margin: 0;
     }
 
     #main .main > .title {
@@ -170,7 +165,8 @@ input[type=checkbox] {
 
     #main .main .distribution {
         text-align: start;
-        margin-left: 178px;
+        margin-left: 23px;
+        margin-top: 15%;
     }
 
     #main .main .distribution .distribution_rate .content .title {
@@ -201,7 +197,7 @@ input[type=checkbox] {
     }
 
     #main .main .table {
-        margin: 3% auto 10% auto;
+        margin: 5% auto 10% auto;
     }
 
     table {
@@ -210,14 +206,14 @@ input[type=checkbox] {
 
 }
 
-@media (max-width: 360px) {
+/* @media (max-width: 576px) {
 
     #main .main > .title {
         font-size: 16px;
     }
 
     #main .main .ether_klay {
-        width: 360px;
+        width: 415px;
         margin: 3% 0;
     }
 
@@ -244,11 +240,11 @@ input[type=checkbox] {
     }
 
     #main .main .distribution {
-        margin-left: 427px;
+        margin-left: 0px;
     }
 
     #main .main .agree {
         margin-top: 4%;
         margin-bottom: 2%;
-    }
+    } */
 
