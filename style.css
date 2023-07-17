@@ -225,6 +225,9 @@ input[type=checkbox] {
         margin-top: 7%;
         margin-bottom: 21%;
     }
+
+    #main .main .distribution {
+        margin-left: 0px;
     }
 
     #main .main .distribution .distribution_rate .content .title {
@@ -243,4 +246,5 @@ input[type=checkbox] {
         margin-top: 4%;
         margin-bottom: 2%;
     }
+}
 
