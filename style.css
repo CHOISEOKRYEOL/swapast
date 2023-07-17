@@ -20,7 +20,7 @@ a {
 }
 
 #main .container {
-    margin: 0 20%;
+    margin: 0 14%;
 }
 
 #main .main > .title {
@@ -70,7 +70,7 @@ th, td {
 
 #main .main .distribution {
     text-align: start;
-    margin-left: 429px;
+    margin-left: 312px;
 }
 
 #main .main .distribution .distribution_rate .content {
