@@ -43,7 +43,7 @@ a {
 #main .main .table {
     display: flex;
     justify-content: center;
-    margin: 3% auto 7% auto;
+    margin: 3% auto 6% auto;
     height: 220px;
     font-size: 13px;
 }
